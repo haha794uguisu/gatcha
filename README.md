@@ -10,6 +10,7 @@
 
 ## 制作にあたって利用したもの
 ・Microsoft Designer
+・paper-co
 ・フキダシデザイン
 ・ダ鳥獣戯画
 ・InkScape
