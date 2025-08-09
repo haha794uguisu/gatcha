@@ -5,14 +5,22 @@
 
 ## 注意点
 ・確率、回数ともに半角数字で入力してください。
+
 ・計算結果に多少の誤差が生じます。
+
 ・ミスがある可能性があります。
 
 ## 制作にあたって利用したもの
 ・Microsoft Designer
+
 ・paper-co
+
 ・フキダシデザイン
+
 ・ダ鳥獣戯画
+
 ・InkScape
+
 ・Kaisei Opti
+
 ・Dela Gothic One
