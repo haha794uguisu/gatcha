@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 70px;
+    background-color: #333;
+}
+
+.logo1{
+    padding-top: 10px;
+    z-index: 100;
+    margin: auto 5%;
+    width: 50px;
+    filter: invert(97%);
+}
+
+.image-container {
+    margin-top: 5.7%;
+    position: relative; 
+    display: inline-block; 
+}
+
+.slope_wb{
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 49.5%;
+    width: 101%;
+}
+
+.ot1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 25%;
+}
+
+.ot2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 25%;
+}
+
+.ot3{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 25%;
+}
+
+.ot4{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 25%;
+}
+
+.ot5{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 39%;
+    left: 65%;
+}
+
+.ot6{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 73%;
+}
+
+
+#result2{
+    font-size: 7.5vw;
+}
+
+canvas{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 65%;
+    height: 37.5vw;
+    width: 37.5vw;
+}
+
+.fantasy{
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.one p{
+    height: 25%;
+    color: #F6F7F8;
+    font-size: 3.0vw;
+    font-family: "Kaisei Opti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.one span{
+    font-size: 1.5vw;
+}
+
+.one input{
+    text-align: right;
+    width: 5.3vw;
+    color: #F6F7F8;
+    font-size: 3.0vw;
+    font-family: "Kaisei Opti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #00000000;
+    border: none;
+}
+
+.one button{
+    padding: 0.9vw 0 0.9vw 0;
+    text-align: center;
+    width: 12vw;
+    background-color: #F6F7F800;
+    color: #F6F7F8;
+    border: solid 0.2vw #F6F7F8;
+    line-height: 0;
+    font-size: 2.8vw;
+    font-family: "Kaisei Opti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.5s ease;
+}
+.one button:hover{
+    background-color: #F6F7F8;
+    color: #00546A;
+    cursor: pointer;
+} 
+
+.slope_bw{
+    position: absolute;
+    transform: translate(-50%, -35%);
+    top: 100%;
+    left: 50.5%;
+    width: 101%;
+}
+
+.two{
+    width: 100%;
+    background-color: #F6F7F8;
+    padding-bottom: 15%;
+}
+
+.image-container2{
+    margin-top: 10%;
+    width: 100%;
+    position: relative; 
+    display: inline-block; 
+}
+
+.label_one{
+    margin-left: 40%;
+    width: 20%;
+}
+
+.two h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 27%;
+    left: 50%;
+    color: #F6F7F8;
+    font-size: 3.5vw;
+    font-family: "Kaisei Opti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.two .main{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.two p{
+    color: #333;
+    font-size: 2.7vw;
+    font-family: "Kaisei Opti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.two span{
+    background-color: rgb(20, 164, 199);
+}
+
+.example{
+    margin-top: 15%;
+    display: flex;
+}
+
+.kaeru1{
+    width: 50%;
+}
+
+.hukidashi1{
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.image-container3{
+    position: relative; 
+    display: inline-block; 
+}
+.image-container3 p{
+    font-size: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 27%;
+    left: 50%;
+}
+
+.kaeru2{
+    width: 50%;
+    transform: scaleX(-1);
+}
+
+.hukidashi2{
+    width: 100%;
+}
+
+.image-container4{
+    position: relative; 
+    display: inline-block; 
+}
+.image-container4 .bakutahi{
+    width: 50%;
+    font-size: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 50%;
+}
+
+footer{
+    background-color: #333;
+    margin-top: -10%;
+}
+
+.slope{
+    background-color: #F6F7F8;
+    width: 101%;
+}
+
+footer p{
+    padding: 0 0px 5% 100px;
+    color: #F6F7F8;
+}

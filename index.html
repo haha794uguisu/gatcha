@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=jp>
+    <head>
+        <meta charset='UTF-8'>
+        <title></title>
+        <link rel='icon' href=''>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check" />
+
+        <script type="text/javascript" src="script.js" defer></script>
+        <script src="https://kit.fontawesome.com/1a56439034.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <img class="logo1" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/haha_logo.png" alt="logo">
+        </header>
+        <section class="one">
+            <div class="image-container">
+                <img class="fantasy" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/blue_fantasy.jpeg" alt="blue_fantasy">
+                <img class="slope_wb" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/slope_wb.png" alt="slope_wb">
+                <div  class="overlay-text">
+                    <p class="ot1">
+                        確率
+                        <input type="text" id="per1" name="per1">
+                        <span>％</span>
+                    </p>
+                    <p class="ot2">
+                        回数
+                        <input type="text" id="time" name="time">
+                        <span>連</span>
+                    </p>
+                    <p class="ot3">
+                        <button onclick="getNumber()"><span class="material-symbols-outlined">check</span></button>
+                    </p>
+                    
+                </div>
+                <p><canvas id="myCanvas"></canvas></p>
+                <p id="result2" class="ot5">0.00</p>
+                <p class="ot6">％</p>
+                <img class="slope_bw" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/slope_bw.png" alt="slope_bw">
+            </div>
+        </section>
+        <section class="two">
+            <div class="image-container2">
+                <img class="label_one" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/label_one.png" alt="label_one">
+                <h2>使い方</h2>
+            </div>
+            <div class="main">
+                <p>　このツールは、ガチャで狙いを<span>１体以上</span>引ける確率を求めるものです。</p>
+                <p>　しかし逆を言うと、どれくらいの確率で爆ﾀﾋをするかもわかってしまいます。</p>
+                <p>　この結果を信じてガチャを引くか、引かないかはあなた次第です。</p>
+            </div>
+
+            <div class="image-container2">
+                <img class="label_one" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/label_one.png" alt="label_one">
+                <h2>使用例</h2>
+            </div>
+            <div class="main">
+                <div class="example">
+                    <img class="kaeru1" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/kaeru_game.png" alt="kaeru_game">
+                    <div class="image-container3">
+                        <img class="hukidashi1" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/hukidasi_maru.png" alt="hukidashi_maru">
+                        <p>これくらい集めたら狙い引けるかな～</p>
+                    </div>
+                </div>
+                <div class="example">
+                    <div class="image-container4">
+                        <img class="hukidashi2" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/hukidasi_sumi.png" alt="hukidashi_sumi">
+                        <img class="bakutahi" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/bakutahi.png" alt="bakutahi">
+                    </div>
+                    <img class="kaeru2" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/kaeru_surprise.png" alt="kaeru_surprise">
+                </div>
+            </div>
+
+            <div class="image-container2">
+                <img class="label_one" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/label_one.png" alt="label_one">
+                <h2>！注意！</h2>
+            </div>
+            <div class="main">
+                <p>　確率、回数ともに<span>半角数字</span>で入力してください。</p>
+                <p>　計算結果は、小数第３位で四捨五入されています。よって、小さな誤差が生じます。　（例）0.003%→0.00%</p>
+                <p>　コーディングミスがあったら申し訳ございません。</p>
+            </div>
+        </section>
+        <footer>
+            <img class="slope" src="https://raw.githubusercontent.com/haha794uguisu/gatcha/refs/heads/main/img/slope_bb.png" alt="slope_wb">
+            <p>&copy; 2025 haha794uguisu</p>
+        </footer>
+    </body>
+</html>
